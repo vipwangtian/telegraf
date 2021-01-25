@@ -4,7 +4,7 @@ The Procusername processor plugin adds "username" tag to measurements which coll
 
 It's useful to whom run multiple websites on one server, because the performance counter shows alike name such as "w3wp#1" for different instances which are started by same application, therefore we can't distinguish them by name. 
 
-As we know, different app pools run use different user. And generally speaking, we ought to run website use seprated app pools,  which means that, we could recognize them by processes' user name.
+As we know, different app pools run using different  windows user. And generally speaking, we ought to run website using seprated app pools,  which means that, we could recognize them by processes' username.
 
 ## Effect Module
 
