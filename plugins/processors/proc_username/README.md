@@ -21,7 +21,7 @@ As we know, different app pools run using different  windows user. And generally
 
 |||
 |  ----  | ----  |
-| Key name | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfProc\Performance\ProcessNameFormat |
+| Key name | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfProc\Performance |
 | Value name | ProcessNameFormat |
 | Value type | REG_DWORD |
 | Value | 2 (0x00000002) |
