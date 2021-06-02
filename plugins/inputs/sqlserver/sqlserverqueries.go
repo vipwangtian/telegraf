@@ -394,6 +394,9 @@ SELECT DISTINCT
 			,'Mirrored Write Transactions/sec'
 			,'Group Commit Time'
 			,'Group Commits/Sec'
+			,'Workfiles Created/sec'
+			,'Worktables Created/sec'
+			,'Average Latch Wait Time (ms)'
 		) OR (
 			spi.[object_name] LIKE '%User Settable%'
 			OR spi.[object_name] LIKE '%SQL Errors%'
@@ -406,6 +409,9 @@ SELECT DISTINCT
 				,'Number of Deadlocks/sec'
 				,'Lock Waits/sec'
 				,'Latch Waits/sec'
+				,'Average Wait Time (ms)'
+				,'Lock Requests/sec'
+				,'Lock Timeouts/sec'
 			)
 		)
 )
